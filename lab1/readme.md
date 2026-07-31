@@ -14,3 +14,15 @@ modern javascript is divided  into two catogaries :
 -priority (nextTick,Promise,setImmediate/setTimeout)
 2. moduleJS (.mjs) -> follow modular approach -> import
 -priority (Promise,nextTick,setImmediate/setTimeout)
+directly communicate with operating system rather then browser the common operation on a file or folders are :
+1. file ->wright file,read file,append file
+2. folder -> Mkdir/md
+rmdir/rm
+readdir
+3. file metadat
+-> stat
+-> lstat
+-> rstat
+4. watch -> watch,unwatch
+5. stream -> readstream(),writestream()
+all function are promise so it must be call with await keywords
